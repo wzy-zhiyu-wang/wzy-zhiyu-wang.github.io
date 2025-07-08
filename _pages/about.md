@@ -29,13 +29,17 @@ announcements:
 👋 Hello! I’m thrilled you’re here. Here’s a snapshot of my journey so far:
 
 #### Current
-I’m an M.Phil. candidate in Advanced Computer Science at [University of Cambridge](https://www.cam.ac.uk/), where I’m developing **topological neural network** architectures for protein structure representation under the supervision of [Prof. Pietro Liò](https://scholar.google.com/citations?user=4YhNJBEAAAAJ&hl=en).
+
+I am currently working as a Research Assistant at [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/) focusing on protein local structure alignment. In mid-September, I will be joining [Keymed Biosciences](https://en.keymedbio.com/en/index.html) as a Researcher working on AI-based drug design.
 
 #### Background
-I graduated with First-Class Honors in B.Sc. Computer Science from [University College London](https://www.ucl.ac.uk/). During my time there, I:
 
-- Built an **ML-based remote patient monitoring** system under the supervision of [Prof. Ivana Drobnjak](https://scholar.google.com/citations?hl=en&user=55BI2VIICu8C&view_op=list_works&sortby=pubdate).
-- Interned as a Machine Learning Engineer at [Xunfei Healthcare](https://www.xunfeihealthcare.com/en/about.html), where I designed a framework to generate synthetic datasets for healthcare **LLM instruction-tuning**.
+At [University of Cambridge](https://www.cam.ac.uk/), I completed my M.Phil. in Advanced Computer Science with Distinction (**ranked 8/60**). My dissertation **Topotein: Topological Deep Learning for Protein Representation Learning**, supervised by [Prof. Pietro Liò](https://scholar.google.com/citations?user=4YhNJBEAAAAJ&hl=en), received a score of **88/100**.
+
+I previously graduated with First-Class Honors in B.Sc. Computer Science from [University College London](https://www.ucl.ac.uk/), where I completed my dissertation on **ML-based remote patient monitoring** under [Prof. Ivana Drobnjak](https://scholar.google.com/citations?hl=en&user=55BI2VIICu8C&view_op=list_works&sortby=pubdate).
+
+In industry, I worked as a Machine Learning Engineering intern at [Xunfei Healthcare](https://www.xunfeihealthcare.com/en/about.html), focusing on **LLM instruction-tuning**. I also collaborated with [IBM](https://www.ibm.com/uk-en) and the [NHS](https://www.nhs.uk/) to develop [chatbots](https://theailaboratory.wordpress.com/2023/03/25/the-ixn-nhs-ucl-and-ibm-ai-spell-out-how-to-transform-complex-data-into-meaningful-information/) for healthcare facilities.
 
 #### Research Interests
-My passion lies at the crossroads of **geometric deep learning** and **large language models**. I’m dedicated to creating novel ML methods that address pressing biomedical and healthcare challenges. I welcome opportunities to collaborate on innovative, high-impact projects!
+
+I am interested in **geometric deep learning** and **large language models**. I’m dedicated to creating novel ML methods that address pressing biomedical and healthcare challenges. I welcome opportunities to collaborate on innovative, high-impact projects!
