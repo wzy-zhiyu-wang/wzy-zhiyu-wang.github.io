@@ -34,7 +34,10 @@ I am currently working as a Research Assistant at [Shanghai Jiao Tong University
 
 #### Background
 
-At [University of Cambridge](https://www.cam.ac.uk/), I completed my M.Phil. in Advanced Computer Science with Distinction (**ranked 8th out of 60**). My dissertation **Topotein: Topological Deep Learning for Protein Representation Learning**, supervised by [Prof. Pietro Liò](https://scholar.google.com/citations?user=4YhNJBEAAAAJ&hl=en), received a score of **88/100**.
+At [University of Cambridge](https://www.cam.ac.uk/), I completed my M.Phil. in Advanced Computer Science with
+Distinction (**ranked 8th out of 60**). My dissertation **Topotein: Topological Deep Learning for Protein Representation
+Learning**, supervised by [Prof. Pietro Liò](https://scholar.google.com/citations?user=4YhNJBEAAAAJ&hl=en), received a
+score of **88/100** and won the **Highly Commended M.Phil Project 2024-2025** prize.
 
 I previously graduated with First-Class Honors in B.Sc. Computer Science from [University College London](https://www.ucl.ac.uk/), where I completed my dissertation on **ML-based remote patient monitoring** under [Prof. Ivana Drobnjak](https://scholar.google.com/citations?hl=en&user=55BI2VIICu8C&view_op=list_works&sortby=pubdate).
 
