@@ -30,7 +30,9 @@ announcements:
 
 #### Current
 
-I am currently working as a Research Assistant at [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/) focusing on protein local structure alignment. In mid-September, I will be joining [Keymed Biosciences](https://en.keymedbio.com/en/index.html) as a Researcher working on AI-based drug design.
+I am currently working as a Research Assistant at [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/) focusing on protein local structure alignment. 
+
+[//]: # (In mid-September, I will be joining [Keymed Biosciences]&#40;https://en.keymedbio.com/en/index.html&#41; as a Researcher working on AI-based drug design.)
 
 #### Background
 
