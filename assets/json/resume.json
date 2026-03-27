@@ -6,21 +6,13 @@
     "email": "zhiyu_wang_work (at) outlook (dot) com",
     "phone": "",
     "url": "https://wzy-zhiyu-wang.github.io/",
-    "summary": "I’m an AI researcher advancing science and healthcare through innovative machine-learning methods.",
+    "summary": "I'm an AI researcher advancing science and healthcare through innovative machine-learning methods.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "city": "Beijing",
+      "countryCode": "CN",
+      "region": "China"
     },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
-      }
-    ]
+    "profiles": []
   },
   "education": [
     {
@@ -36,7 +28,7 @@
     },{
       "institution": "University College London",
       "location": "London, UK",
-      "url": "https://www.cam.ac.uk/",
+      "url": "https://www.ucl.ac.uk/",
       "area": "Computer Science",
       "studyType": "Bachelor of Science (First Class Honors)",
       "startDate": "2021-09",
@@ -47,35 +39,68 @@
   ],
   "work": [
     {
+      "name": "Sapient Intelligence",
+      "location": "Beijing, China",
+      "position": "AI Research & Application Engineer",
+      "url": "https://github.com/sapientinc/HRM",
+      "startDate": "2025-09",
+      "endDate": "",
+      "summary": "Applying Hierarchical Reasoning Models to healthcare scenarios and collaborating with Peking Union Medical College Hospital to develop healthcare solutions.",
+      "highlights": []
+    },{
+      "name": "Shanghai Jiao Tong University",
+      "location": "Shanghai, China",
+      "position": "Research Assistant",
+      "url": "https://en.sjtu.edu.cn/",
+      "startDate": "2025-04",
+      "endDate": "2025-09",
+      "summary": "Protein substructure alignment via optimal transport. Supervisors: Prof. Pietro Lio & Prof. Liang Hong.",
+      "highlights": [
+        "Developed PLASMA, a module based on optimal transport for fast and highly accurate identification of locally similar protein substructures. Accepted at <a href='https://iclr.cc/'>ICLR 2026</a>. (<a href='https://arxiv.org/abs/2510.11752'>Paper</a>)",
+        "Demonstrated consistent +10-30% ROC-AUC improvement across 7 backbone protein language models on 3 VenusX tasks."
+      ]
+    },{
+      "name": "University of Cambridge",
+      "location": "Cambridge, UK",
+      "position": "Research Assistant",
+      "url": "https://www.cam.ac.uk/",
+      "startDate": "2024-10",
+      "endDate": "2025-09",
+      "summary": "Hierarchical protein representation learning, multi-omics integration with GNNs (Supervisor: Prof. Pietro Lio), and graph-based facial expression analysis (Supervisor: Prof. Hatice Gunes).",
+      "highlights": [
+        "Developed TCPNet, an SE(3)-equivariant topological neural network for hierarchical protein representation learning. (<a href='https://arxiv.org/abs/2509.03885'>Paper</a>) (<a href='https://talks.cam.ac.uk/talk/index/234460'>Invited Talk</a>)",
+        "Awarded Highly Commended M.Phil Project Prize 2024-2025.",
+        "Multi-omics integration using heterogeneous graph networks for single-cell data. (<a href='https://arxiv.org/abs/2510.06880'>Paper</a>)",
+        "GraphAU-Pain accepted at <a href='https://arxiv.org/abs/2505.19802v2'>IJCAI25 MiGA Workshop</a>."
+      ]
+    },{
       "name": "Xunfei Healthcare Technology",
       "location": "Hefei, China",
-      "position": "Machine Learning Engineer",
+      "position": "Assistant AI Research Engineer",
       "url": "https://www.xunfeihealthcare.com/en/about.html",
       "startDate": "2024-07",
       "endDate": "2024-09",
-      "summary": "Designed a framework for generating synthetic dataset for healthcare LLM (<a href='https://www.xunfeihealthcare.com/en/product/244.html'>Xiaoyi</a>) instruction tuning.",
+      "summary": "Built a knowledge distillation pipeline using a teacher LLM to synthesize medical instruction examples, improving student model (<a href='https://www.xunfeihealthcare.com/en/product/244.html'>Xiaoyi</a>) instruction-following accuracy from 34% to 82% via supervised fine-tuning.",
       "highlights": []
     },{
       "name": "Luojin Data Information",
       "location": "Shanghai, China",
-      "position": "Machine Learning Engineer",
+      "position": "Intern Machine Learning Engineer",
       "url": "https://pitchhub.36kr.com/project/2180550044503169",
       "startDate": "2023-05",
       "endDate": "2023-08",
-      "summary": "Designed an LLM-based pipeline to translate natural language queries into database queries.",
+      "summary": "Developed a Retrieval-Augmented Generation (RAG) pipeline with MongoDB vector store and LangChain agents for automated financial report classification, achieving 92% query translation accuracy and 97% entity matching rate through semantic search.",
       "highlights": []
     },{
-      "name": "National Healthcare Service",
+      "name": "National Health Service (NHS)",
       "location": "London, UK",
-      "position": "Software Engineer",
+      "position": "Intern Software Engineer",
       "url": "https://www.nhs.uk/",
       "startDate": "2022-09",
       "endDate": "2023-05",
-      "summary": "Designed a low-cost AI chatbot generation system for NHS trusts.",
+      "summary": "Created an automated chatbot generation service for hospitals, reducing development time from weeks to 30 minutes.",
       "highlights": [
-        "<a href='https://bit.ly/ixn-nhs-ucl-and-ibm'>Media recognition</a> from IBM Master Inventor <a href='https://www.linkedin.com/in/jonmcnamara/'>John McNamara</a>.",
-        "Live demonstration at <a href='https://www.gosh.nhs.uk/'>Great Ormond Street Hospital</a>'s <a href='https://www.gosh.nhs.uk/about-us/about-gosh-drive/'>Data Research, Innovation and Virtual Environments</a> unit.",
-        "Presented at UCL to IBM, Microsoft, and Intel."
+        "Delivered a live demonstration at Great Ormond Street Hospital to clinicians, and presented at UCL to IBM, Microsoft, and Intel, earning <a href='https://bit.ly/ixn-nhs-ucl-and-ibm'>media recognition</a> from an IBM Master Inventor."
       ]
     },{
       "name": "University College London",
@@ -95,11 +120,24 @@
       "title": "IBM Master Inventor, UCL Honorary Professor",
       "relationship": "Supervisor of Zhiyu's Year 2 project (NHS Chatbot) in UCL",
       "icon": "fa-solid fa-user-tie",
-      "reference": "I’ve had the pleasure of working with many early professionals in the academic consulting space, but Zhiyu is exceptional; a galvanising force for good who relishes a challenge. Before I worked with he directly, I was aware of his excellent reputation through the university – someone that everyone knows, and feels that they can approach for help, advice and guidance. Zhiyu is one of those people in an organisation that will help galvanise a project with enthusiasm, humour and talent – which is infections across the team and the organisation. Its been a joy to work with him, both in terms of being a technologist and a professional. I look forward very much to the opportunity to work with Zhiyu again."
+      "reference": "I've had the pleasure of working with many early professionals in the academic consulting space, but Zhiyu is exceptional; a galvanising force for good who relishes a challenge. Before I worked with he directly, I was aware of his excellent reputation through the university – someone that everyone knows, and feels that they can approach for help, advice and guidance. Zhiyu is one of those people in an organisation that will help galvanise a project with enthusiasm, humour and talent – which is infections across the team and the organisation. Its been a joy to work with him, both in terms of being a technologist and a professional. I look forward very much to the opportunity to work with Zhiyu again."
     }
   ],
   "volunteer": [],
-  "awards": [],
+  "awards": [
+    {
+      "title": "Highly Commended M.Phil Project Prize 2024-2025",
+      "date": "2025",
+      "awarder": "Department of Computer Science and Technology, University of Cambridge",
+      "summary": "For the dissertation Topotein: Topological Deep Learning for Protein Representation Learning (Score: 88/100)."
+    },
+    {
+      "title": "Churchill College Postgraduate Academic Travel Fund",
+      "date": "2025-06-19",
+      "awarder": "Churchill College, University of Cambridge",
+      "summary": "Awarded for attending IJCAI25 in Guangzhou, China to present GraphAU-Pain."
+    }
+  ],
   "publications": [],
   "skills": [
     {
@@ -107,7 +145,7 @@
       "level": "Master",
       "icon": "fa-solid fa-robot",
       "keywords": [
-        "PyTorch", "PyTorch Lightning", "PyTorch Geometric", "Numpy", "Pandas", "Scikit-Learn"
+        "PyTorch", "PyTorch Lightning", "PyTorch Geometric", "NumPy", "Pandas", "Scikit-Learn"
       ]
     },{
       "name": "Visualization",
@@ -128,7 +166,7 @@
       "level": "Master",
       "icon": "fa-solid fa-server",
       "keywords": [
-        "SLURM", "WanDB", "Tensorboard"
+        "SLURM", "WandB", "TensorBoard"
       ]
     }
   ],

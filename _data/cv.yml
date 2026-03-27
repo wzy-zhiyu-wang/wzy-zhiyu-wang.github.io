@@ -2,96 +2,122 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Zhiyu Wang (王智语)
     - name: Languages
-      value: English, German
+      value: Chinese (Native), English (Full professional proficiency)
+    - name: Research Interests
+      value: Geometric Deep Learning, Large Language Models, AI for Biology/Healthcare
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: M.Phil. in Advanced Computer Science (Distinction, Rank 8/60)
+      institution: University of Cambridge, Cambridge, UK
+      year: 2024 - 2025
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - "Courses: Geometric Deep Learning, Affective AI, Mobile & Wearable ML, NLP, Multi-agent RL."
+    - title: B.Sc. in Computer Science (First Class Honors)
+      institution: University College London, London, UK
+      year: 2021 - 2024
       description:
-        - Description 1.
-        - Description 2.
+        - "Main Courses: Machine Learning, Computer Vision, Reinforcement Learning, Mathematics & Statistics, Software Engineering."
 
-- title: Experience
+- title: Research Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: "Protein Substructure Alignment via Optimal Transport"
+      institution: Shanghai Jiao Tong University, Shanghai, China
+      year: 2025
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - "Research Assistant | Supervisors: Prof. Pietro Lio & Prof. Liang Hong"
+        - "Developed PLASMA, a module based on optimal transport that can be seamlessly added to any protein representation learning model with minimal training or even no training to enable fast and highly accurate identification of locally similar substructures. Accepted at <a href='https://iclr.cc/'>ICLR 2026</a>. (<a href='https://arxiv.org/abs/2510.11752'>Paper</a>)"
+        - "Completed extensive experiments on 7 backbone protein language models across 3 tasks from the VenusX dataset (motifs, active sites, and binding sites), demonstrated consistent and significant improvement (+10-30% ROC-AUC) across all backbones and tasks."
+        - "Conducted case studies using PyMol visualizations and proved that the founded similar substructures are indeed similar in structure and they are not found just because of sequence similarity."
+    - title: "Hierarchical Protein Representation Learning"
+      institution: University of Cambridge, Cambridge, UK
+      year: 2024 - 2025
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - "Research Assistant | Supervisor: Prof. Pietro Lio"
+        - "Developed TCPNet, an SE(3)-equivariant topological neural network that simultaneously learns protein residue-level and secondary structure-level features without losing any geometric information. (<a href='https://talks.cam.ac.uk/talk/index/234460'>Invited Talk</a>) (<a href='https://arxiv.org/abs/2509.03885'>Paper</a>)"
+        - "Awarded Highly Commended M.Phil Project Prize 2024-2025 by the Department of Computer Science and Technology."
+        - "Demonstrated 5% improvement on average across 3 popular protein representation learning tasks when only structure features are provided, which can be particularly important for de novo antibody design."
+    - title: "Multi-Omics Integration Data with GNNs"
+      institution: University of Cambridge, Cambridge, UK
+      year: 2025
       description:
+        - "Research Assistant | Supervisor: Prof. Pietro Lio"
+        - "Using heterogeneous graph network for embedding single cell multi-omics (e.g. RNA, protein, and ATAC modalities) data to a shared latent space and conduct cell clustering. (<a href='https://arxiv.org/abs/2510.06880'>Paper</a>)"
+        - "Training time on BM-CITE and LUNG-CITE datasets takes less than an hour on a laptop GPU, with 3% lower ARI and 2% lower NMI compared to the statistical method MOJITOO."
+    - title: "Graph-based Pain Estimation from Facial Expressions"
+      institution: University of Cambridge, Cambridge, UK
+      year: 2024 - 2025
+      description:
+        - "Research Assistant | Supervisor: Prof. Hatice Gunes"
+        - "Presented at IJCAI25 MiGA Workshop. (<a href='https://arxiv.org/abs/2505.19802v2'>Paper</a>)"
+        - "Proposed the GraphAU-Pain model that fuses a ResNet-50 backbone with graph-based facial action unit (AU) representation learning for pain intensity estimation, allowing better clinical interpretability and generalization compared to purely image-driven methods."
+        - "Developed a novel transfer learning strategy to address domain differences and missing annotations, improving GraphAU-Pain's AU occurrence prediction F1-score by 30% on the UNBC dataset."
+    - title: "Readmission Prediction with Remote Patient Monitoring Data"
+      institution: University College London, London, UK
+      year: 2023 - 2024
+      description:
+        - "Research Assistant | Supervisor: Prof. Ivana Drobnjak"
+        - "Collaborated with clinicians from UCL Hospital to develop a SQL-based data pipeline for processing raw remote patient monitoring data, performing clinical feature engineering, and building interpretable ML models (ROC-AUC 0.79 +/- 0.03) with SHAP analysis."
+        - "Designed a patient-independent stratified bootstrapping evaluation framework to address extreme data scarcity (55 patients) and class imbalance, preventing data leakage and ensuring robust generalization estimates for clinical deployment."
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Industrial Experience
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: AI Research & Application Engineer
+      institution: Sapient Intelligence, Beijing, China
+      year: 2025 - Present
+      description:
+        - "Applying <a href='https://github.com/sapientinc/HRM'>Hierarchical Reasoning Models</a> to healthcare scenarios and collaborating with Peking Union Medical College Hospital to develop healthcare solutions."
+    - title: Assistant AI Research Engineer
+      institution: Xunfei Healthcare Technology, Hefei, China
+      year: 2024
+      description:
+        - "Built a knowledge distillation pipeline using a teacher LLM to synthesize medical instruction examples from human-annotated samples, improving student model (<a href='https://www.xunfeihealthcare.com/en/product/244.html'>Xiaoyi</a>) instruction-following accuracy from 34% to 82% via supervised fine-tuning."
+    - title: Intern Machine Learning Engineer
+      institution: Luojin Data Information, Shanghai, China
+      year: 2023
+      description:
+        - "Developed a Retrieval-Augmented Generation (RAG) pipeline with MongoDB vector store and LangChain agents for automated financial report classification, achieving 92% query translation accuracy and 97% entity matching rate through semantic search."
+    - title: Intern Software Engineer
+      institution: National Health Service (NHS), London, UK
+      year: 2022 - 2023
+      description:
+        - "Created an automated chatbot generation service for hospitals, reducing development time from weeks to 30 minutes."
+        - "Delivered a live demonstration at Great Ormond Street Hospital to clinicians, and presented at UCL to IBM, Microsoft, and Intel, earning <a href='https://bit.ly/ixn-nhs-ucl-and-ibm'>media recognition</a> from an IBM Master Inventor."
+
+- title: Additional Experience
+  type: time_table
+  contents:
+    - title: Programming Tutor
+      institution: University College London, London, UK
+      year: 2022 - 2023
+      description:
+        - Organized biweekly group discussions for 12 first-year computer science students, offering academic guidance and peer support.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2025
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+        - Highly Commended M.Phil Project Prize 2024-2025, Department of Computer Science and Technology, University of Cambridge
+        - "Churchill College Postgraduate Academic Travel Fund for IJCAI25"
 
-- title: Academic Interests
+- title: Technical Skills
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Machine Learning
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - "PyTorch, PyTorch Lightning, PyTorch Geometric, NumPy, Pandas, Scikit-Learn"
+    - title: Visualization
       items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+        - "Matplotlib, Seaborn, Plotly"
+    - title: Programming Languages
+      items:
+        - "Python, JavaScript, Java, C++, R"
+    - title: High Performance Computing
+      items:
+        - "SLURM, WandB, TensorBoard"

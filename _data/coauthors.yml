@@ -1,34 +1,39 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"lio":
+  - firstname: ["Pietro", "P."]
+    url: https://scholar.google.com/citations?user=4YhNJBEAAAAJ&hl=en
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"gunes":
+  - firstname: ["Hatice", "H."]
+    url: https://scholar.google.com/citations?user=BSwn20AAAAAJ&hl=en
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"liu":
+  - firstname: ["Yang"]
+    url: https://scholar.google.com/citations?hl=en&user=Bs0DKFoAAAAJ
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"drobnjak":
+  - firstname: ["Ivana", "I."]
+    url: https://scholar.google.com/citations?hl=en&user=55BI2VIICu8C
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"hong":
+  - firstname: ["Liang", "L."]
+    url: https://scholar.google.com/citations?hl=en&user=PIHmz5sAAAAJ
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"zhou":
+  - firstname: ["Bingxin", "B."]
+    url: https://scholar.google.com/citations?user=OsvArmcAAAAJ&hl=en
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"jamasb":
+  - firstname: ["Arian R.", "Arian", "A."]
+    url: https://scholar.google.com/citations?user=hYm9a-UAAAAJ&hl=en
 
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"hajij":
+  - firstname: ["Mustafa", "M."]
+    url: https://scholar.google.com/citations?user=6fwWEFoAAAAJ&hl=en
 
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"morehead":
+  - firstname: ["Alex", "A."]
+    url: https://scholar.google.com/citations?user=IYHJU5EAAAAJ&hl=en
+
+"mcnamara":
+  - firstname: ["John", "J."]
+    url: https://www.linkedin.com/in/jonmcnamara/
