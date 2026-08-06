@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-about",
           title: "About",
-          description: "A detailed overview of my research, experience, and background.",
+          description: "My work across autonomous research agents, AI for biology, and healthcare machine learning.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/about/";
@@ -36,6 +36,20 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/news/";
+          },
+        },{id: "nav-projects",
+          title: "projects",
+          description: "A growing collection of research tools, creative AI experiments, and developer utilities.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
+        },{id: "nav-cv",
+          title: "CV",
+          description: "Education, publications, research, and industry experience.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cv/";
           },
         },{id: "post-plasma-fast-and-interpretable-protein-substructure-alignment-via-optimal-transport",
         
@@ -73,51 +87,34 @@ ninja.data = [{
           section: "News",},{id: "news-our-plasma-paper-on-protein-local-alignment-via-optimal-transport-has-been-accepted-at-iclr-2026",
           title: 'Our PLASMA paper on protein local alignment via optimal transport has been accepted...',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "news-i-am-presenting-praxit-at-ai4-2026-in-las-vegas-come-see-us-at-our-booth",
+          title: 'I am presenting Praxit at AI4 2026 in Las Vegas—come see us at...',
+          description: "",
+          section: "News",},{id: "projects-claude-feishu-calendar",
+          title: 'Claude Feishu Calendar',
+          description: "A Claude Code plugin for managing Feishu/Lark calendar events — create, update, and query meetings from your terminal.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+              window.location.href = "/projects/claude_feishu_calendar/";
+            },},{id: "projects-daily-ai-research-trends",
+          title: 'Daily AI Research Trends',
+          description: "Automated pipeline that scrapes HuggingFace and arXiv, analyzes papers with Claude, and presents trends via a Next.js dashboard.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+              window.location.href = "/projects/daily_ai_research_trends/";
+            },},{id: "projects-learn-linear-attentions",
+          title: 'Learn Linear Attentions',
+          description: "An interactive guide to modern linear attention mechanisms — S4, Mamba-1/2, and DeltaNet — with visualizations and step-by-step derivations.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+              window.location.href = "/projects/learn_linear_attentions/";
+            },},{id: "projects-signal-lost",
+          title: 'Signal Lost',
+          description: "A cyberpunk narrative RPG powered by AI agents, featuring branching storylines with 12+ endings and a web-based GUI.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
+              window.location.href = "/projects/signal_lost/";
+            },},{id: "projects-the-sundering-of-aethermoor",
+          title: 'The Sundering of Aethermoor',
+          description: "A dark fantasy RPG with a terminal UI and AI agent integration for dynamic narrative and world-building.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
+              window.location.href = "/projects/the_sundering_of_aethermoor/";
             },},{
         id: 'social-email',
         title: 'email',
