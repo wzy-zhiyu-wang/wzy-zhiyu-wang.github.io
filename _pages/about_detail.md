@@ -15,7 +15,7 @@ In 2026, I showcased Praxit at the [AI4 conference](https://ai4.io/) through liv
 
 #### Research
 
-At [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/), I developed [PLASMA](https://arxiv.org/abs/2510.11752), an optimal-transport module for fast and interpretable protein substructure alignment. It improved ROC-AUC by 10–30% across seven protein-language-model backbones and three VenusX tasks, and was accepted as a poster at [ICLR 2026](https://iclr.cc/).
+Based at the [University of Cambridge](https://www.cam.ac.uk/) and collaborating with [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/), I developed [PLASMA](https://arxiv.org/abs/2510.11752), an optimal-transport module for fast and interpretable protein substructure alignment. It improved ROC-AUC by 10–30% across seven protein-language-model backbones and three VenusX tasks, and was accepted as a poster at [ICLR 2026](https://iclr.cc/).
 
 At Cambridge, I developed [TCPNet](https://arxiv.org/abs/2509.03885), an SE(3)-equivariant topological neural network that jointly learns residue- and secondary-structure-level protein features without losing geometric information ([invited talk](https://talks.cam.ac.uk/talk/index/234460)). The project received the Department of Computer Science and Technology's **Highly Commended M.Phil Project Prize 2024–2025**. I also worked on [multi-omics integration with graph neural networks](https://arxiv.org/abs/2510.06880) and [GraphAU-Pain](https://arxiv.org/abs/2505.19802v2), presented at the IJCAI 2025 MiGA Workshop.
 

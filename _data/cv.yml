@@ -64,11 +64,11 @@
   type: time_table
   contents:
     - title: Protein Substructure Alignment via Optimal Transport
-      institution: Shanghai Jiao Tong University
-      location: Shanghai, China
+      institution: University of Cambridge & SJTU
+      location: Cambridge, UK
       year: Apr 2025 – Sep 2025
       description:
-        - "Research Assistant | Supervisors: Prof. Pietro Liò & Prof. Liang Hong"
+        - "External collaboration | Supervisors: Prof. Pietro Liò & Prof. Liang Hong"
         - "Developed PLASMA, an optimal-transport module that adds fast, highly accurate local-substructure identification to protein representation models with minimal or no training. Accepted as a poster at <a href='https://iclr.cc/'>ICLR 2026</a>."
         - "Evaluated seven protein-language-model backbones across the VenusX motif, active-site, and binding-site tasks, improving ROC-AUC by 10–30% across all backbones and tasks."
         - "Used PyMOL case studies to show that retrieved substructures were structurally similar rather than artifacts of sequence similarity."

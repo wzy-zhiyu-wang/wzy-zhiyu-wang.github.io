@@ -60,10 +60,10 @@
       ]
     },
     {
-      "name": "Shanghai Jiao Tong University",
-      "location": "Shanghai, China",
-      "position": "Research Assistant",
-      "url": "https://en.sjtu.edu.cn/",
+      "name": "University of Cambridge & SJTU",
+      "location": "Cambridge, UK",
+      "position": "External collaboration",
+      "url": "https://www.cam.ac.uk/",
       "startDate": "2025-04",
       "endDate": "2025-09",
       "summary": "Protein substructure alignment via optimal transport. Supervisors: Prof. Pietro Lio & Prof. Liang Hong.",
