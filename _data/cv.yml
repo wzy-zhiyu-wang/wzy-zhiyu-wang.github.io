@@ -3,121 +3,164 @@
   contents:
     - name: Full Name
       value: Zhiyu Wang (王智语)
-    - name: Languages
-      value: Chinese (Native), English (Full professional proficiency)
-    - name: Research Interests
-      value: Geometric Deep Learning, Large Language Models, AI for Biology/Healthcare
+    - name: Research Focus
+      value: AI for Biology, Large Language Models, AI Agents, Geometric Deep Learning
+    - name: Email
+      value: <a href="mailto:zhiyu_wang_work@outlook.com">zhiyu_wang_work@outlook.com</a>
 
 - title: Education
   type: time_table
   contents:
     - title: M.Phil. in Advanced Computer Science (Distinction, Rank 8/60)
-      institution: University of Cambridge, Cambridge, UK
-      year: 2024 - 2025
+      institution: University of Cambridge
+      location: Cambridge, UK
+      year: Oct 2024 – Jul 2025
       description:
         - "Courses: Geometric Deep Learning, Affective AI, Mobile & Wearable ML, NLP, Multi-agent RL."
     - title: B.Sc. in Computer Science (First Class Honors)
-      institution: University College London, London, UK
-      year: 2021 - 2024
+      institution: University College London
+      location: London, UK
+      year: Sep 2021 – Jun 2024
       description:
-        - "Main Courses: Machine Learning, Computer Vision, Reinforcement Learning, Mathematics & Statistics, Software Engineering."
+        - "Courses: Machine Learning, Computer Vision, Reinforcement Learning, Mathematics & Statistics, Software Engineering."
+
+- title: Publications
+  type: time_table
+  contents:
+    - title: Fast and Interpretable Protein Substructure Alignment via Optimal Transport
+      institution: ICLR 2026
+      year: "2026"
+      description:
+        - "<strong>Zhiyu Wang*</strong>, Bingxin Zhou*, Jing Wang, Yang Tan, Weishu Zhao, Pietro Liò, Liang Hong. * Equal contribution."
+      linkitems:
+        - linkname: Paper
+          link: https://arxiv.org/abs/2510.11752
+    - title: "Topotein: Topological Deep Learning for Protein Representation Learning"
+      institution: arXiv preprint
+      year: "2025"
+      description:
+        - "<strong>Zhiyu Wang</strong>, Arian Jamasb, Mustafa Hajij, Alex Morehead, Luke Braithwaite, Pietro Liò."
+      linkitems:
+        - linkname: Paper
+          link: https://arxiv.org/abs/2509.03885
+    - title: "MoRE-GNN: Multi-omics Data Integration with a Heterogeneous Graph Autoencoder"
+      institution: arXiv preprint
+      year: "2025"
+      description:
+        - "<strong>Zhiyu Wang</strong>, Sonia Koszut, Pietro Liò, Francesco Ceccarelli."
+      linkitems:
+        - linkname: Paper
+          link: https://arxiv.org/abs/2510.06880
+    - title: "GraphAU-Pain: Graph-based Action Unit Representation for Pain Intensity Estimation"
+      institution: IJCAI 2025 MiGA Workshop
+      year: "2025"
+      description:
+        - "<strong>Zhiyu Wang</strong>, Yang Liu, Hatice Gunes."
+      linkitems:
+        - linkname: Paper
+          link: https://arxiv.org/abs/2505.19802v2
 
 - title: Research Experience
   type: time_table
   contents:
-    - title: "Protein Substructure Alignment via Optimal Transport"
-      institution: Shanghai Jiao Tong University, Shanghai, China
-      year: 2025
+    - title: Protein Substructure Alignment via Optimal Transport
+      institution: Shanghai Jiao Tong University
+      location: Shanghai, China
+      year: Apr 2025 – Sep 2025
       description:
-        - "Research Assistant | Supervisors: Prof. Pietro Lio & Prof. Liang Hong"
-        - "Developed PLASMA, a module based on optimal transport that can be seamlessly added to any protein representation learning model with minimal training or even no training to enable fast and highly accurate identification of locally similar substructures. Accepted at <a href='https://iclr.cc/'>ICLR 2026</a>. (<a href='https://arxiv.org/abs/2510.11752'>Paper</a>)"
-        - "Completed extensive experiments on 7 backbone protein language models across 3 tasks from the VenusX dataset (motifs, active sites, and binding sites), demonstrated consistent and significant improvement (+10-30% ROC-AUC) across all backbones and tasks."
-        - "Conducted case studies using PyMol visualizations and proved that the founded similar substructures are indeed similar in structure and they are not found just because of sequence similarity."
-    - title: "Hierarchical Protein Representation Learning"
-      institution: University of Cambridge, Cambridge, UK
-      year: 2024 - 2025
+        - "Research Assistant | Supervisors: Prof. Pietro Liò & Prof. Liang Hong"
+        - "Developed PLASMA, an optimal-transport module that adds fast, highly accurate local-substructure identification to protein representation models with minimal or no training. Accepted as a poster at <a href='https://iclr.cc/'>ICLR 2026</a>."
+        - "Evaluated seven protein-language-model backbones across the VenusX motif, active-site, and binding-site tasks, improving ROC-AUC by 10–30% across all backbones and tasks."
+        - "Used PyMOL case studies to show that retrieved substructures were structurally similar rather than artifacts of sequence similarity."
+      linkitems:
+        - linkname: Paper
+          link: https://arxiv.org/abs/2510.11752
+    - title: Hierarchical Protein Representation Learning
+      institution: University of Cambridge
+      location: Cambridge, UK
+      year: Oct 2024 – Sep 2025
       description:
-        - "Research Assistant | Supervisor: Prof. Pietro Lio"
-        - "Developed TCPNet, an SE(3)-equivariant topological neural network that simultaneously learns protein residue-level and secondary structure-level features without losing any geometric information. (<a href='https://talks.cam.ac.uk/talk/index/234460'>Invited Talk</a>) (<a href='https://arxiv.org/abs/2509.03885'>Paper</a>)"
-        - "Awarded Highly Commended M.Phil Project Prize 2024-2025 by the Department of Computer Science and Technology."
-        - "Demonstrated 5% improvement on average across 3 popular protein representation learning tasks when only structure features are provided, which can be particularly important for de novo antibody design."
-    - title: "Multi-Omics Integration Data with GNNs"
-      institution: University of Cambridge, Cambridge, UK
-      year: 2025
+        - "Research Assistant | Supervisor: Prof. Pietro Liò"
+        - "Developed TCPNet, an SE(3)-equivariant topological neural network that jointly learns residue- and secondary-structure-level protein features without losing geometric information."
+        - "Received the Highly Commended M.Phil Project Prize 2024–2025 from the Department of Computer Science and Technology."
+        - "Improved performance by 5% on average across three protein-representation tasks when only structural features were provided."
+      linkitems:
+        - linkname: Paper
+          link: https://arxiv.org/abs/2509.03885
+        - linkname: Invited Talk
+          link: https://talks.cam.ac.uk/talk/index/234460
+    - title: Multi-Omics Integration with GNNs
+      institution: University of Cambridge
+      location: Cambridge, UK
+      year: Feb 2025 – Sep 2025
       description:
-        - "Research Assistant | Supervisor: Prof. Pietro Lio"
-        - "Using heterogeneous graph network for embedding single cell multi-omics (e.g. RNA, protein, and ATAC modalities) data to a shared latent space and conduct cell clustering. (<a href='https://arxiv.org/abs/2510.06880'>Paper</a>)"
-        - "Training time on BM-CITE and LUNG-CITE datasets takes less than an hour on a laptop GPU, with 3% lower ARI and 2% lower NMI compared to the statistical method MOJITOO."
-    - title: "Graph-based Pain Estimation from Facial Expressions"
-      institution: University of Cambridge, Cambridge, UK
-      year: 2024 - 2025
+        - "Research Assistant | Supervisor: Prof. Pietro Liò"
+        - "Used a heterogeneous graph network to embed single-cell RNA, protein, and ATAC modalities into a shared latent space for cell clustering."
+        - "Trained on BM-CITE and LUNG-CITE in under an hour on a laptop GPU, with ARI 3% and NMI 2% below the statistical method MOJITOO."
+      linkitems:
+        - linkname: Paper
+          link: https://arxiv.org/abs/2510.06880
+    - title: Graph-based Pain Estimation from Facial Expressions
+      institution: University of Cambridge
+      location: Cambridge, UK
+      year: Oct 2024 – Jan 2025
       description:
         - "Research Assistant | Supervisor: Prof. Hatice Gunes"
-        - "Presented at IJCAI25 MiGA Workshop. (<a href='https://arxiv.org/abs/2505.19802v2'>Paper</a>)"
-        - "Proposed the GraphAU-Pain model that fuses a ResNet-50 backbone with graph-based facial action unit (AU) representation learning for pain intensity estimation, allowing better clinical interpretability and generalization compared to purely image-driven methods."
-        - "Developed a novel transfer learning strategy to address domain differences and missing annotations, improving GraphAU-Pain's AU occurrence prediction F1-score by 30% on the UNBC dataset."
-    - title: "Readmission Prediction with Remote Patient Monitoring Data"
-      institution: University College London, London, UK
-      year: 2023 - 2024
+        - "Presented at the IJCAI 2025 MiGA Workshop."
+        - "Proposed GraphAU-Pain, combining a ResNet-50 backbone with graph-based facial-action-unit representations for interpretable pain-intensity estimation."
+        - "Developed a transfer-learning strategy for domain differences and missing annotations, improving AU-occurrence F1 by 30% on UNBC."
+      linkitems:
+        - linkname: Paper
+          link: https://arxiv.org/abs/2505.19802v2
+    - title: Readmission Prediction with Remote Patient Monitoring Data
+      institution: University College London
+      location: London, UK
+      year: May 2023 – Jun 2024
       description:
         - "Research Assistant | Supervisor: Prof. Ivana Drobnjak"
-        - "Collaborated with clinicians from UCL Hospital to develop a SQL-based data pipeline for processing raw remote patient monitoring data, performing clinical feature engineering, and building interpretable ML models (ROC-AUC 0.79 +/- 0.03) with SHAP analysis."
-        - "Designed a patient-independent stratified bootstrapping evaluation framework to address extreme data scarcity (55 patients) and class imbalance, preventing data leakage and ensuring robust generalization estimates for clinical deployment."
+        - "Collaborated with UCL Hospital clinicians on a SQL data pipeline, clinical feature engineering, and interpretable ML models (ROC-AUC 0.79 ± 0.03) with SHAP analysis."
+        - "Designed patient-independent stratified bootstrapping for 55 patients with class imbalance, preventing leakage and improving the reliability of deployment estimates."
 
 - title: Industrial Experience
   type: time_table
   contents:
-    - title: AI Research & Application Engineer
-      institution: Sapient Intelligence, Beijing, China
-      year: 2025 - Present
+    - title: AI Scientist & Timeseries Generation/Prediction
+      institution: Sapient Intelligence
+      location: Beijing, China
+      year: Sep 2025 – Present
       description:
-        - "Applying <a href='https://github.com/sapientinc/HRM'>Hierarchical Reasoning Models</a> to healthcare scenarios and collaborating with Peking Union Medical College Hospital to develop healthcare solutions."
-    - title: Assistant AI Research Engineer
-      institution: Xunfei Healthcare Technology, Hefei, China
-      year: 2024
+        - "ML Research Scientist"
+        - "Developing Praxit, an autonomous AI-scientist framework with DAG-based execution lineage for solution provenance; achieved roughly 30% higher performance at 10% of the cost of Claude Code with Opus on Karpathy's AutoResearch prompt."
+        - "Showcased Praxit at <a href='https://ai4.io/'>AI4 2026</a> through live booth demonstrations and conversations with prospective customers and collaborators."
+        - "Generating synthetic time-series data and developing <a href='https://github.com/sapientinc/HRM'>HRM</a>-based forecasting models for weight-management applications."
+    - title: Healthcare LLM Knowledge Distillation
+      institution: Xunfei Healthcare Technology
+      location: Hefei, China
+      year: Jul 2024 – Sep 2024
       description:
-        - "Built a knowledge distillation pipeline using a teacher LLM to synthesize medical instruction examples from human-annotated samples, improving student model (<a href='https://www.xunfeihealthcare.com/en/product/244.html'>Xiaoyi</a>) instruction-following accuracy from 34% to 82% via supervised fine-tuning."
-    - title: Intern Machine Learning Engineer
-      institution: Luojin Data Information, Shanghai, China
-      year: 2023
+        - "Intern ML Researcher"
+        - "Built a teacher-LLM knowledge-distillation pipeline that synthesized medical instructions and improved <a href='https://www.xunfeihealthcare.com/en/product/244.html'>Xiaoyi</a>'s instruction-following accuracy from 34% to 82% through supervised fine-tuning."
+    - title: RAG-Based Financial Intelligence System
+      institution: Luojin Data Information
+      location: Shanghai, China
+      year: May 2023 – Aug 2023
       description:
-        - "Developed a Retrieval-Augmented Generation (RAG) pipeline with MongoDB vector store and LangChain agents for automated financial report classification, achieving 92% query translation accuracy and 97% entity matching rate through semantic search."
-    - title: Intern Software Engineer
-      institution: National Health Service (NHS), London, UK
-      year: 2022 - 2023
+        - "Intern ML Engineer"
+        - "Developed a RAG pipeline with a MongoDB vector store and LangChain agents for automated financial-report classification, reaching 92% query-translation accuracy and a 97% entity-matching rate."
+    - title: Low-cost AI Chatbot Generation System for Hospitals
+      institution: National Health Service
+      location: London, UK
+      year: Sep 2022 – May 2023
       description:
-        - "Created an automated chatbot generation service for hospitals, reducing development time from weeks to 30 minutes."
-        - "Delivered a live demonstration at Great Ormond Street Hospital to clinicians, and presented at UCL to IBM, Microsoft, and Intel, earning <a href='https://bit.ly/ixn-nhs-ucl-and-ibm'>media recognition</a> from an IBM Master Inventor."
+        - "Intern Software Engineer"
+        - "Created an automated hospital-chatbot generation service that reduced development time from weeks to 30 minutes."
+        - "Demonstrated the system to clinicians at Great Ormond Street Hospital and presented it at UCL to IBM, Microsoft, and Intel."
+      linkitems:
+        - linkname: Media recognition
+          link: https://bit.ly/ixn-nhs-ucl-and-ibm
 
 - title: Additional Experience
-  type: time_table
+  type: list
   contents:
-    - title: Programming Tutor
-      institution: University College London, London, UK
-      year: 2022 - 2023
-      description:
-        - Organized biweekly group discussions for 12 first-year computer science students, offering academic guidance and peer support.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 2025
-      items:
-        - Highly Commended M.Phil Project Prize 2024-2025, Department of Computer Science and Technology, University of Cambridge
-        - "Churchill College Postgraduate Academic Travel Fund for IJCAI25"
-
-- title: Technical Skills
-  type: nested_list
-  contents:
-    - title: Machine Learning
-      items:
-        - "PyTorch, PyTorch Lightning, PyTorch Geometric, NumPy, Pandas, Scikit-Learn"
-    - title: Visualization
-      items:
-        - "Matplotlib, Seaborn, Plotly"
-    - title: Programming Languages
-      items:
-        - "Python, JavaScript, Java, C++, R"
-    - title: High Performance Computing
-      items:
-        - "SLURM, WandB, TensorBoard"
+    - "<strong>Reviewer:</strong> NeurIPS 2026; AI4Science Workshop at NeurIPS 2025 and ICML 2026."
+    - "<strong>Teaching:</strong> Programming Tutor at University College London (2022–23)."

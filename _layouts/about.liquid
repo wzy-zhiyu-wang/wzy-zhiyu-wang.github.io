@@ -2,43 +2,82 @@
 layout: default
 ---
 <div class="post">
-  <header class="post-header">
-    <h1 class="post-title">
-      {% if site.title == 'blank' %}
-        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
-        {{ site.last_name }}
-      {% else %}
-        {{ site.title }}
-      {% endif %}
-    </h1>
-    <p class="desc">{{ page.subtitle }}</p>
-  </header>
-
   <article>
-    {% if page.profile %}
-      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
-        {% if page.profile.image %}
-          {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
-          {% if page.profile.image_circular %}
-            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+    <section class="about-hero">
+      <header class="post-header">
+        <h1 class="post-title">
+          {% if site.title == 'blank' %}
+            <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
+            {{ site.last_name }}
           {% else %}
-            {% assign profile_image_class = 'img-fluid z-depth-1
-      rounded' %}
+            {{ site.title }}
           {% endif %}
-          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
-      30vw, 95vw"{% endcapture %}
-          {%
-            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
-            cache_bust=true
-          %}
+        </h1>
+        {% if page.subtitle.first %}
+          <ul class="desc subtitle-list">
+            {% for subtitle_item in page.subtitle %}
+              <li>{{ subtitle_item }}</li>
+            {% endfor %}
+          </ul>
+        {% else %}
+          <p class="desc">{{ page.subtitle }}</p>
         {% endif %}
-        {% if page.profile.more_info %}
-          <div class="more-info">{{ page.profile.more_info }}</div>
-        {% endif %}
-      </div>
-    {% endif %}
+      </header>
 
-    <div class="clearfix">{{ content }}</div>
+      {% if page.profile %}
+        <aside class="about-hero__aside" aria-label="Profile and links">
+          <div class="profile profile--hero">
+            {% if page.profile.image %}
+              {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
+              {% assign profile_image_alt = page.profile.image_alt | default: page.profile.image %}
+              {% if page.profile.image_circular %}
+                {% assign profile_image_class = 'img-fluid rounded-circle' %}
+              {% else %}
+                {% assign profile_image_class = 'img-fluid rounded' %}
+              {% endif %}
+              {% capture sizes %}(min-width: {{ site.max_width }}) 336px, (min-width: 768px) 34vw, (min-width: 576px) 352px, 92vw{% endcapture %}
+              {%
+                include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes
+                alt=profile_image_alt width=2778 height=1853 cache_bust=true
+              %}
+            {% endif %}
+            {% assign profile_more_info = page.profile.more_info | strip %}
+            {% if profile_more_info != '' %}
+              <div class="more-info">{{ profile_more_info }}</div>
+            {% endif %}
+          </div>
+
+          {% if page.profile.interests %}
+            <div class="research-focus research-focus--profile" aria-label="Research interests">
+              {% for interest in page.profile.interests %}
+                <span>{{ interest }}</span>
+              {% endfor %}
+            </div>
+          {% endif %}
+
+          {% if page.profile.actions %}
+            <div class="hero-actions hero-actions--profile">
+              {% for action in page.profile.actions %}
+                <a
+                  class="{{ action.type }}-action"
+                  href="{{ action.url }}"
+                  {% if action.new_tab %}
+                    target="_blank" rel="noopener"
+                  {% endif %}
+                >
+                  {{- action.label -}}
+                  {% if action.icon %}
+                    <i class="{{ action.icon }}" aria-hidden="true"></i>
+                  {% endif %}
+                </a>
+              {% endfor %}
+            </div>
+          {% endif %}
+        </aside>
+      {% endif %}
+
+      <div class="about-hero__intro clearfix">{{ content }}</div>
+    </section>
 
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}

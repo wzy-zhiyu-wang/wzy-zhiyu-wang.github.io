@@ -6,7 +6,7 @@
     "email": "zhiyu_wang_work (at) outlook (dot) com",
     "phone": "",
     "url": "https://wzy-zhiyu-wang.github.io/",
-    "summary": "I'm an AI researcher advancing science and healthcare through innovative machine-learning methods.",
+    "summary": "I'm an ML Research Scientist working on autonomous AI scientists, time-series modelling, and AI for biology and healthcare.",
     "location": {
       "city": "Beijing",
       "countryCode": "CN",
@@ -24,8 +24,15 @@
       "startDate": "2024-10",
       "endDate": "2025-07",
       "score": "10",
-      "courses": ["Geometric Deep Learning", "Affective AI", "Wearable & Mobile AI", "Multi-agent Reinforcement Learning", "Natural Language Processing"]
-    },{
+      "courses": [
+        "Geometric Deep Learning",
+        "Affective AI",
+        "Wearable & Mobile AI",
+        "Multi-agent Reinforcement Learning",
+        "Natural Language Processing"
+      ]
+    },
+    {
       "institution": "University College London",
       "location": "London, UK",
       "url": "https://www.ucl.ac.uk/",
@@ -41,13 +48,18 @@
     {
       "name": "Sapient Intelligence",
       "location": "Beijing, China",
-      "position": "AI Research & Application Engineer",
-      "url": "https://github.com/sapientinc/HRM",
+      "position": "ML Research Scientist",
+      "url": "https://www.sapient.inc/",
       "startDate": "2025-09",
       "endDate": "",
-      "summary": "Applying Hierarchical Reasoning Models to healthcare scenarios and collaborating with Peking Union Medical College Hospital to develop healthcare solutions.",
-      "highlights": []
-    },{
+      "summary": "AI Scientist & Timeseries Generation/Prediction.",
+      "highlights": [
+        "Developing Praxit, an autonomous AI-scientist framework with DAG-based execution lineage for solution provenance; achieved roughly 30% higher performance at 10% of the cost of Claude Code with Opus on Karpathy's AutoResearch prompt.",
+        "Showcased Praxit at <a href='https://ai4.io/'>AI4 2026</a> through live booth demonstrations and conversations with prospective customers and collaborators.",
+        "Generating synthetic time-series data and developing <a href='https://github.com/sapientinc/HRM'>HRM</a>-based forecasting models for weight-management applications."
+      ]
+    },
+    {
       "name": "Shanghai Jiao Tong University",
       "location": "Shanghai, China",
       "position": "Research Assistant",
@@ -59,7 +71,8 @@
         "Developed PLASMA, a module based on optimal transport for fast and highly accurate identification of locally similar protein substructures. Accepted at <a href='https://iclr.cc/'>ICLR 2026</a>. (<a href='https://arxiv.org/abs/2510.11752'>Paper</a>)",
         "Demonstrated consistent +10-30% ROC-AUC improvement across 7 backbone protein language models on 3 VenusX tasks."
       ]
-    },{
+    },
+    {
       "name": "University of Cambridge",
       "location": "Cambridge, UK",
       "position": "Research Assistant",
@@ -73,7 +86,8 @@
         "Multi-omics integration using heterogeneous graph networks for single-cell data. (<a href='https://arxiv.org/abs/2510.06880'>Paper</a>)",
         "GraphAU-Pain accepted at <a href='https://arxiv.org/abs/2505.19802v2'>IJCAI25 MiGA Workshop</a>."
       ]
-    },{
+    },
+    {
       "name": "Xunfei Healthcare Technology",
       "location": "Hefei, China",
       "position": "Assistant AI Research Engineer",
@@ -82,7 +96,8 @@
       "endDate": "2024-09",
       "summary": "Built a knowledge distillation pipeline using a teacher LLM to synthesize medical instruction examples, improving student model (<a href='https://www.xunfeihealthcare.com/en/product/244.html'>Xiaoyi</a>) instruction-following accuracy from 34% to 82% via supervised fine-tuning.",
       "highlights": []
-    },{
+    },
+    {
       "name": "Luojin Data Information",
       "location": "Shanghai, China",
       "position": "Intern Machine Learning Engineer",
@@ -91,7 +106,8 @@
       "endDate": "2023-08",
       "summary": "Developed a Retrieval-Augmented Generation (RAG) pipeline with MongoDB vector store and LangChain agents for automated financial report classification, achieving 92% query translation accuracy and 97% entity matching rate through semantic search.",
       "highlights": []
-    },{
+    },
+    {
       "name": "National Health Service (NHS)",
       "location": "London, UK",
       "position": "Intern Software Engineer",
@@ -102,7 +118,8 @@
       "highlights": [
         "Delivered a live demonstration at Great Ormond Street Hospital to clinicians, and presented at UCL to IBM, Microsoft, and Intel, earning <a href='https://bit.ly/ixn-nhs-ucl-and-ibm'>media recognition</a> from an IBM Master Inventor."
       ]
-    },{
+    },
+    {
       "name": "University College London",
       "location": "London, UK",
       "position": "Programming Tutor",
@@ -144,58 +161,42 @@
       "name": "Machine Learning",
       "level": "Master",
       "icon": "fa-solid fa-robot",
-      "keywords": [
-        "PyTorch", "PyTorch Lightning", "PyTorch Geometric", "NumPy", "Pandas", "Scikit-Learn"
-      ]
-    },{
+      "keywords": ["PyTorch", "PyTorch Lightning", "PyTorch Geometric", "NumPy", "Pandas", "Scikit-Learn"]
+    },
+    {
       "name": "Visualization",
       "level": "Master",
       "icon": "fa-solid fa-chart-line",
-      "keywords": [
-        "Matplotlib", "Seaborn", "Plotly"
-      ]
-    },{
+      "keywords": ["Matplotlib", "Seaborn", "Plotly"]
+    },
+    {
       "name": "Programming Languages",
       "level": "Master",
       "icon": "fa-solid fa-code",
-      "keywords": [
-        "Python", "JavaScript", "Java", "C++", "R"
-      ]
-    },{
+      "keywords": ["Python", "JavaScript", "Java", "C++", "R"]
+    },
+    {
       "name": "High Performance Computing",
       "level": "Master",
       "icon": "fa-solid fa-server",
-      "keywords": [
-        "SLURM", "WandB", "TensorBoard"
-      ]
+      "keywords": ["SLURM", "WandB", "TensorBoard"]
     }
   ],
   "interests": [
     {
       "name": "Computer Science",
       "icon": "fa-solid fa-computer",
-      "keywords": [
-        "Geometric Deep Learning",
-        "Large Language Models",
-        "AI for Science",
-        "AI for Healthcare"
-      ]
-    },{
+      "keywords": ["Geometric Deep Learning", "Large Language Models", "AI for Science", "AI for Healthcare"]
+    },
+    {
       "name": "Biology",
       "icon": "fa-solid fa-dna",
-      "keywords": [
-        "Protein Design",
-        "Drug Development",
-        "Single-cell Sequencing"
-      ]
-    },{
+      "keywords": ["Protein Design", "Drug Development", "Single-cell Sequencing"]
+    },
+    {
       "name": "Healthcare",
       "icon": "fa-solid fa-heart-circle-check",
-      "keywords": [
-        "Electronic Health Records",
-        "Physical Signals",
-        "Precision Health"
-      ]
+      "keywords": ["Electronic Health Records", "Physical Signals", "Precision Health"]
     }
   ],
   "certificates": [

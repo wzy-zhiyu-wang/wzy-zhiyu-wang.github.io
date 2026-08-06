@@ -10,8 +10,8 @@ $red-color: #ff3636 !default;
 $red-color-dark: #b71c1c !default;
 $orange-color: #f29105 !default;
 $orange-color-dark: #bf873a !default;
-$burgundy-color: #9B1B30 !default;
-$burgundy-color-dark: #7A1628 !default;
+$burgundy-color: #2a4a67 !default;
+$burgundy-color-dark: #17334d !default;
 $blue-color: #0076df !default;
 $blue-color-dark: #00369f !default;
 $cyan-color: #2698ba !default;
@@ -25,12 +25,12 @@ $purple-color: #b509ac !default;
 $light-purple-color: color.adjust($purple-color, $lightness: 25%);
 $pink-color: #f92080 !default;
 $pink-color-light: #ffdddd !default;
-$yellow-color: #E8B830 !default;
-$golden-color: #DAA520 !default;
+$yellow-color: #8ec5c8 !default;
+$golden-color: #daa520 !default;
 
 $grey-color: #828282 !default;
 $grey-color-light: color.adjust($grey-color, $lightness: 40%);
-$grey-color-dark: #1c1c1d;
+$grey-color-dark: #111c26;
 $grey-900: #212529;
 
 $white-color: #ffffff !default;
@@ -38,8 +38,8 @@ $black-color: #000000 !default;
 
 // Theme colors
 
-$code-bg-color-light: rgba($purple-color, 0.05);
-$code-bg-color-dark: #2c3237 !default;
+$code-bg-color-light: rgba($burgundy-color, 0.07);
+$code-bg-color-dark: #172735 !default;
 
 // Font awesome location
 $fa-font-path: "../webfonts";
