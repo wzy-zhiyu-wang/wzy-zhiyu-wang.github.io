@@ -38,7 +38,7 @@ layout: default
               {% capture sizes %}(min-width: {{ site.max_width }}) 336px, (min-width: 768px) 34vw, (min-width: 576px) 352px, 92vw{% endcapture %}
               {%
                 include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes
-                alt=profile_image_alt width=2778 height=1853 cache_bust=true
+                alt=profile_image_alt width=2778 height=1853 cache_bust=true avoid_scaling=true
               %}
             {% endif %}
             {% assign profile_more_info = page.profile.more_info | strip %}
