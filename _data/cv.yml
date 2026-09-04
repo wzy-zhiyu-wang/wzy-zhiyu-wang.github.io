@@ -130,8 +130,8 @@
       year: Sep 2025 – Present
       description:
         - "ML Research Scientist"
-        - "Developing Praxit, an autonomous AI-scientist framework with DAG-based execution lineage for solution provenance; achieved roughly 30% higher performance at 10% of the cost of Claude Code with Opus on Karpathy's AutoResearch prompt."
-        - "Showcased Praxit at <a href='https://ai4.io/'>AI4 2026</a> through live booth demonstrations and conversations with prospective customers and collaborators."
+        - "Developing <a href='https://arxiv.org/abs/2608.25955'>Praxist</a>, an autonomous AI-scientist framework with DAG-based execution lineage for solution provenance; achieved roughly 30% higher performance at 10% of the cost of Claude Code with Opus on Karpathy's AutoResearch prompt."
+        - "Showcased Praxist at <a href='https://ai4.io/'>AI4 2026</a> through live booth demonstrations and conversations with prospective customers and collaborators."
         - "Generating synthetic time-series data and developing <a href='https://github.com/sapientinc/HRM'>HRM</a>-based forecasting models for weight-management applications."
     - title: Healthcare LLM Knowledge Distillation
       institution: Xunfei Healthcare Technology

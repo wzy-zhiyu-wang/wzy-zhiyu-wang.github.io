@@ -9,9 +9,9 @@ description: My work across autonomous research agents, AI for biology, and heal
 
 #### Current
 
-I am an ML Research Scientist at [Sapient Intelligence](https://www.sapient.inc/) in Beijing. I am developing **Praxit**, an autonomous AI-scientist framework with DAG-based execution lineage for reproducible solution provenance. On Karpathy's AutoResearch prompt, Praxit achieved roughly **30% higher performance at 10% of the cost** of Claude Code with Opus. I also generate synthetic time-series data and develop [HRM](https://github.com/sapientinc/HRM)-based forecasting models for weight-management applications.
+I am an ML Research Scientist at [Sapient Intelligence](https://www.sapient.inc/) in Beijing. I am developing **Praxist**, an autonomous AI-scientist framework with DAG-based execution lineage for reproducible solution provenance ([arXiv](https://arxiv.org/abs/2608.25955)). On Karpathy's AutoResearch prompt, Praxist achieved roughly **30% higher performance at 10% of the cost** of Claude Code with Opus. I also generate synthetic time-series data and develop [HRM](https://github.com/sapientinc/HRM)-based forecasting models for weight-management applications.
 
-In 2026, I showcased Praxit at the [AI4 conference](https://ai4.io/) through live demonstrations and conversations with prospective customers and collaborators.
+In 2026, I showcased Praxist at the [AI4 conference](https://ai4.io/) through live demonstrations and conversations with prospective customers and collaborators.
 
 #### Research
 
