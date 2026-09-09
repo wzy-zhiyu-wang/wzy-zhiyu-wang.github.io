@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I am presenting Praxist at [AI4 2026](https://ai4.io/) in Las Vegas—come see us at our booth!
+Praxist will be presented at [AI4 2026](https://ai4.io/) in Las Vegas—come see us at our booth!
