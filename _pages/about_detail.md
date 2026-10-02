@@ -9,15 +9,21 @@ description: My work across autonomous research agents, AI for biology, and heal
 
 #### Current
 
-I am an ML Research Scientist at [Sapient Intelligence](https://www.sapient.inc/) in Beijing. I am developing **Praxist**, an autonomous AI-scientist framework with DAG-based execution lineage for reproducible solution provenance ([arXiv](https://arxiv.org/abs/2608.25955)). On Karpathy's AutoResearch prompt, Praxist achieved roughly **30% higher performance at 10% of the cost** of Claude Code with Opus. I also generate synthetic time-series data and develop [HRM](https://github.com/sapientinc/HRM)-based forecasting models for weight-management applications.
+I am an ML Research Scientist at [Sapient Intelligence](https://www.sapient.inc/) in Beijing. I am developing **Praxist**, an autonomous AI-scientist framework with DAG-based execution lineage for reproducible solution provenance ([arXiv](https://arxiv.org/abs/2608.25955)). On Karpathy's AutoResearch prompt, Praxist achieved roughly **30% higher performance at 10% of the cost** of Claude Code with Opus.
 
 In 2026, I showcased Praxist at the [AI4 conference](https://ai4.io/) through live demonstrations and conversations with prospective customers and collaborators.
 
+I am leading a joint project between Sapient and [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/) (with Prof. Liang Hong) that applies Praxist to the [Virtual Cell Challenge 2026](https://virtualcellchallenge.org/): zero-shot prediction of single-cell responses to CRISPRi gene knockdowns. Our team is currently ranked **167th of 1,169 (top 15%)** on the preliminary leaderboard.
+
+Since April 2026, I have been collaborating with [Prof. Jian Tang](https://jian-tang.com/) at [Mila](https://mila.quebec/en) on Bayesian optimization for auto-research systems, where a Gaussian process predicts which candidate solutions are worth expanding and Thompson sampling chooses the next experiment.
+
 #### Research
 
-Based at the [University of Cambridge](https://www.cam.ac.uk/) and collaborating with [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/), I developed [PLASMA](https://arxiv.org/abs/2510.11752), an optimal-transport module for fast and interpretable protein substructure alignment. It improved ROC-AUC by 10–30% across seven protein-language-model backbones and three VenusX tasks, and was accepted as a poster at [ICLR 2026](https://iclr.cc/).
+Based at the [University of Cambridge](https://www.cam.ac.uk/) and collaborating with [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/), I developed [PLASMA](https://arxiv.org/abs/2510.11752), an optimal-transport module for fast and interpretable protein substructure alignment. It improved ROC-AUC by 10–30% across seven protein language models on three datasets curated from InterPro (motifs, active sites, and binding sites), and was accepted as a poster at [ICLR 2026](https://iclr.cc/).
 
-At Cambridge, I developed [TCPNet](https://arxiv.org/abs/2509.03885), an SE(3)-equivariant topological neural network that jointly learns residue- and secondary-structure-level protein features without losing geometric information ([invited talk](https://talks.cam.ac.uk/talk/index/234460)). The project received the Department of Computer Science and Technology's **Highly Commended M.Phil Project Prize 2024–2025**. I also worked on [multi-omics integration with graph neural networks](https://arxiv.org/abs/2510.06880) and [GraphAU-Pain](https://arxiv.org/abs/2505.19802v2), presented at the IJCAI 2025 MiGA Workshop.
+At Cambridge, I built [Topotein](https://arxiv.org/abs/2509.03885), a complete SE(3)-equivariant framework that adds a secondary-structure level to protein representations via a hierarchical hypergraph. This coarser-grained view gives a better global understanding of protein structure: it achieved the best SCOP fold classification accuracy (43.3%, vs. 38.4% for the same network without the hierarchy) ([invited talk](https://talks.cam.ac.uk/talk/index/234460)). The project received the Department of Computer Science and Technology's **Highly Commended M.Phil Project Prize 2024–2025**.
+
+I also built [MoRE-GNN](https://arxiv.org/abs/2510.06880), a heterogeneous graph autoencoder that learns relational graphs directly from single-cell RNA, protein, and ATAC data; it outperforms MOJITOO on BM-CITE and LUNG-CITE clustering and supports cross-modal prediction. With Prof. Hatice Gunes, I developed [GraphAU-Pain](https://arxiv.org/abs/2505.19802v2), presented at the IJCAI 2025 MiGA Workshop, and extended it into a [data-efficient AU-graph transfer learning framework](https://doi.org/10.1109/MCE.2026.3723599) published in *IEEE Consumer Electronics Magazine*.
 
 At UCL, I collaborated with clinicians from UCL Hospital on readmission prediction using remote patient monitoring data. I developed a SQL-based data pipeline, performed clinical feature engineering, and built interpretable models with a ROC-AUC of 0.79 ± 0.03 and SHAP analysis.
 
@@ -33,7 +39,7 @@ At [Xunfei Healthcare Technology](https://www.xunfeihealthcare.com/en/about.html
 
 At [Luojin Data Information](https://pitchhub.36kr.com/project/2180550044503169), I developed a RAG pipeline with a MongoDB vector store and LangChain agents for automated financial-report classification, achieving 92% query-translation accuracy and a 97% entity-matching rate.
 
-I also collaborated with [IBM](https://www.ibm.com/uk-en) and the [NHS](https://www.nhs.uk/) to create an automated [chatbot-generation service](https://theailaboratory.wordpress.com/2023/03/25/the-ixn-nhs-ucl-and-ibm-ai-spell-out-how-to-transform-complex-data-into-meaningful-information/) for hospitals, reducing development time from weeks to 30 minutes. The project was demonstrated live at Great Ormond Street Hospital and presented to IBM, Microsoft, and Intel.
+Through UCL's industrial collaboration program with the [NHS](https://www.nhs.uk/), I built a system that crawls a hospital's website and auto-generates a [homepage navigation agent](https://theailaboratory.wordpress.com/2023/03/25/the-ixn-nhs-ucl-and-ibm-ai-spell-out-how-to-transform-complex-data-into-meaningful-information/) that answers visitor questions and guides them to the right pages, cutting setup from weeks of manual development to 30 minutes. The project was demonstrated live at Great Ormond Street Hospital and presented to IBM, Microsoft, and Intel.
 
 #### Academic Service
 
@@ -41,7 +47,7 @@ I am a reviewer for **NeurIPS 2026** and for the **AI4Science Workshops at NeurI
 
 #### Research Interests
 
-I am interested in **AI agents**, **large language models**, **geometric deep learning**, and **AI for biology and healthcare**. I welcome opportunities to collaborate on technically ambitious, high-impact work.
+I am interested in **AI agents**, **large language models**, **AI for biology and healthcare**, and **geometric deep learning**. I welcome opportunities to collaborate on technically ambitious, high-impact work.
 
 #### Technical Skills
 
