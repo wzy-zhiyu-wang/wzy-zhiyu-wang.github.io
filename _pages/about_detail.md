@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 nav: true
 nav_order: 1
-description: My work across autonomous research agents, AI for biology, and healthcare machine learning.
+description: My work across autonomous research agents and AI for biology and health.
 ---
 
 #### Current
@@ -47,7 +47,7 @@ I am a reviewer for **NeurIPS 2026** and for the **AI4Science Workshops at NeurI
 
 #### Research Interests
 
-I am interested in **AI agents**, **large language models**, **AI for biology and healthcare**, and **geometric deep learning**. I welcome opportunities to collaborate on technically ambitious, high-impact work.
+I am interested in **AI agents**, **large language models**, **AI for biology and health**, and **geometric deep learning**. I welcome opportunities to collaborate on technically ambitious, high-impact work.
 
 #### Technical Skills
 

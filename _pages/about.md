@@ -15,7 +15,7 @@ profile:
   interests:
     - AI Agents
     - Large Language Models
-    - AI for Biology
+    - AI for Biology & Health
     - Geometric Deep Learning
   actions:
     - label: Download CV
@@ -45,7 +45,7 @@ announcements:
 #  limit: 3 # leave blank to include all the blog posts
 ---
 
-My work spans <span class="soft-highlight">agentic systems</span>, <span class="soft-highlight">large language models</span>, and <span class="soft-highlight">geometric machine learning</span>, with a particular interest in bringing these approaches together for <span class="soft-highlight">AI-driven biological research</span>.
+My work spans <span class="soft-highlight">agentic systems</span>, <span class="soft-highlight">large language models</span>, and <span class="soft-highlight">geometric machine learning</span>, with a particular interest in bringing these approaches together for <span class="soft-highlight">AI-driven biology and health research</span>.
 
 I am currently a Research Scientist at [Sapient Intelligence](https://www.sapient.inc/), where I focus on developing [Praxist](https://arxiv.org/abs/2608.25955), a general-purpose autonomous <span class="soft-highlight">AI-scientist</span> framework designed for long-running research tasks across domains. I am also leading a joint project with [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/) that applies Praxist to the [Virtual Cell Challenge 2026](https://virtualcellchallenge.org/), and collaborating with [Prof. Jian Tang](https://jian-tang.com/) at [Mila](https://mila.quebec/en) on Bayesian optimization for auto-research systems.
 
