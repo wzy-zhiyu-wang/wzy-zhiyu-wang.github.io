@@ -9,7 +9,7 @@ description: My work across autonomous research agents and AI for biology and he
 
 #### Current
 
-I am an ML Research Scientist at [Sapient Intelligence](https://www.sapient.inc/) in Beijing. I am developing **Praxist**, an autonomous AI-scientist framework with DAG-based execution lineage for reproducible solution provenance ([arXiv](https://arxiv.org/abs/2608.25955)). On Karpathy's AutoResearch prompt, Praxist achieved roughly **30% higher performance at 10% of the cost** of Claude Code with Opus.
+I am an ML Research Scientist at [Sapient Intelligence](https://www.sapient.inc/) in Beijing. I am developing **Praxist**, an autonomous AI-scientist framework with DAG-based execution lineage for reproducible solution provenance ([arXiv](https://arxiv.org/abs/2608.25955), [GitHub](https://github.com/sapientinc/PRAXIST)). On Karpathy's AutoResearch prompt, Praxist achieved roughly **30% higher performance at 10% of the cost** of Claude Code with Opus. If you find Praxist useful, please give it a star on [GitHub](https://github.com/sapientinc/PRAXIST)!
 
 In 2026, I showcased Praxist at the [AI4 conference](https://ai4.io/) through live demonstrations and conversations with prospective customers and collaborators.
 
