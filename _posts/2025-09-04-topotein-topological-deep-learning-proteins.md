@@ -70,13 +70,13 @@ The SE(3)-equivariance ensures that the learned representations respect the phys
 
 We evaluated Topotein on four protein representation learning tasks using the ProteinWorkshop benchmark:
 
-**Fold Classification** is where Topotein truly shines. This task requires classifying proteins into 1,195 fold classes at varying levels of difficulty (Family, Superfamily, and Fold splits). TCPNet achieved the best performance across all splits, with a notable **~3% improvement on the challenging Fold split** compared to state-of-the-art geometric GNNs. This makes intuitive sense — fold classification fundamentally depends on recognizing arrangements of secondary structure elements, exactly the kind of multi-scale reasoning that PCC enables.
+**Fold Classification** is where Topotein truly shines. This task requires classifying proteins into 1,195 fold classes at varying levels of difficulty (Family, Superfamily, and Fold splits). TCPNet achieved the best performance across all splits, with a notable **3-point improvement on the challenging Fold split** (43.3% vs. 40.1%) over state-of-the-art geometric GNNs. This makes intuitive sense — fold classification fundamentally depends on recognizing arrangements of secondary structure elements, exactly the kind of multi-scale reasoning that PCC enables.
 
 **Inverse Folding** involves predicting amino acid identities from structure alone (a node-level, 23-class classification task). TCPNet showed competitive performance, demonstrating that topological features complement traditional residue-level geometric information.
 
 **Gene Ontology (Cellular Component)** prediction is a multi-label graph classification task that tests whether structural representations capture functional information. Topotein performed competitively, indicating that hierarchical structural features carry meaningful functional signals.
 
-**Antibody Developability** prediction, a binary graph classification task, rounded out the evaluation. Across all four tasks, TCPNet consistently matched or outperformed existing geometric GNNs while providing richer, more interpretable structural representations.
+**Antibody Developability** prediction, a binary graph classification task, rounded out the evaluation. TCPNet matched or outperformed existing geometric GNNs on fold classification, cellular component prediction, and antibody developability, and remained competitive on inverse folding, while providing richer, more interpretable structural representations.
 
 ## Why Topology Matters
 

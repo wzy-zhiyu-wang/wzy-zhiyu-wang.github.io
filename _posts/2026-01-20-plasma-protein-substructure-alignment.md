@@ -42,11 +42,12 @@ One of PLASMA's most practical features is its plug-and-play architecture. PLASM
 
 ## Experiments on VenusX
 
-We evaluated PLASMA extensively on the **VenusX** benchmark, which provides fine-grained functional annotations for protein structures. Across 7 backbone protein language models and 3 alignment tasks (motif detection, binding site matching, and active site identification), PLASMA demonstrated:
+We evaluated PLASMA extensively on the **VenusX** benchmark, which provides fine-grained functional substructure annotations curated from InterPro. Across 7 backbone protein language models and 3 alignment tasks (motif detection, binding site matching, and active site identification), PLASMA demonstrated:
 
-- **Consistent and significant improvement of +10–30% ROC-AUC** across all backbones and tasks, compared to baseline similarity methods.
-- **ROC-AUC above 0.9** on low-similarity protein pairs, where traditional methods like cosine similarity and embedding-based alignment (EBA) deteriorate sharply.
-- **Orders-of-magnitude speedup** over classical structural alignment tools, with inference times in the millisecond range rather than seconds per pair.
+- **ROC-AUC of 0.96–0.99** in detecting shared substructures, versus 0.81–0.93 for the widely used global aligner TM-align, while outperforming the state-of-the-art local method EBA with much cleaner alignments.
+- **Gains of up to 0.33 ROC-AUC** over each backbone's own embedding similarity, consistently across all backbones and tasks.
+- **ROC-AUC above 0.9** on low-similarity protein pairs, where cosine similarity, EBA, Foldseek, and TM-align deteriorate sharply.
+- **About 10 ms per protein pair**: roughly 50× faster than structural aligners such as TM-align and Foldseek, and about 3× faster than EBA.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
