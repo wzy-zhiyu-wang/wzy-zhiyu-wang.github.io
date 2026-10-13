@@ -13,7 +13,7 @@ I am an ML Research Scientist at [Sapient Intelligence](https://www.sapient.inc/
 
 In 2026, I showcased Praxist at the [AI4 conference](https://ai4.io/) through live demonstrations and conversations with prospective customers and collaborators.
 
-I am leading a joint project between Sapient and [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/) (with Prof. Liang Hong) that applies Praxist to the [Virtual Cell Challenge 2026](https://virtualcellchallenge.org/): zero-shot prediction of single-cell responses to CRISPRi gene knockdowns. Our team is currently ranked **213th of 1,478 (top 14.4%)** on the preliminary leaderboard.
+I am leading a joint project between Sapient and [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/) (with Prof. Liang Hong) that applies Praxist to the [Virtual Cell Challenge 2026](https://virtualcellchallenge.org/): zero-shot prediction of single-cell responses to CRISPRi gene knockdowns. Our team is currently ranked **207th of 1,490 (top 13.9%)** on the preliminary leaderboard.
 
 Since April 2026, I have been collaborating with [Prof. Jian Tang](https://jian-tang.com/) at [Mila](https://mila.quebec/en) on Bayesian optimization for auto-research systems, where a Gaussian process predicts which candidate solutions are worth expanding and Thompson sampling chooses the next experiment.
 
