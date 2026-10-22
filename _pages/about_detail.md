@@ -43,7 +43,7 @@ Through UCL's industrial collaboration program with the [NHS](https://www.nhs.uk
 
 #### Academic Service
 
-I am a reviewer for **NeurIPS 2026** and for the **AI4Science Workshops at NeurIPS 2025 and ICML 2026**. I was also a Programming Tutor at UCL in 2022–23.
+I am a reviewer for **ICLR 2027** and **NeurIPS 2026**, and for the **AI4Science Workshops at NeurIPS 2025 and ICML 2026**. I was also a Programming Tutor at UCL in 2022–23.
 
 #### Research Interests
 
